@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
-* main - The entry point
+* main - prints the puts function
+* Description: output programming is like building a mutilingual puzzle
+* Return: 0
 */
 int main(void)
 {
