@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include <sttdio.h>
 /**
-* main - Entry point
-*
-* Return: 0 success
-*/
+  * main - Entry point
+  *
+  * Return: 0 success
+  */
 
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 	c = 0;
 	while
 		(c < 10) {
-			putchar(c + '0');
+			putchae(c + '0');
 			c++;
 		}
 	putchar('\n');
