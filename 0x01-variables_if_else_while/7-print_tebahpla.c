@@ -1,4 +1,4 @@
-#include <sttdio.h>
+#include <stdio.h>
 /**
   * main - Entry point
   *
@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	int c;
+	char c;
 
-	c = 0;
+	c = '0';
 	while
-		(c < 10) {
-			putchae(c + '0');
-			c++;
+		(c >= 'a') {
+			putchar(c);
+			c--;
 		}
 	putchar('\n');
 	return (0);
